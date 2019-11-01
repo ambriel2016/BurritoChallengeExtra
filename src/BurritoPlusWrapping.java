@@ -46,8 +46,10 @@ public class BurritoPlusWrapping {
                     break;
                 case "veggies":
                     veggies++;
+                    break;
                 case "chk, stk, crn, chz, sfr, vggs":
                     chicken++; steak++; carnitas++; chorizo++; sofritas++; veggies++;
+                    break;
                 case "black beans":
                     blackbeans++;
                     break;
@@ -118,17 +120,18 @@ public class BurritoPlusWrapping {
         }
         System.out.println();
         System.out.println();
+
         //Way 2
         String[] wordwrapped2=orderList.split(" ");
         int charlength = 50;
         String newSentence = "";
         ArrayList<String> print = new ArrayList<>();
         for(int i= 0; i < wordwrapped2.length;i++){
-            if((newSentence.length()+wordwrapped2[i].length()) <= 50 && i == wordwrapped2.length-1){
+            if((newSentence.length()+wordwrapped2[i].length()) < charlength && i == wordwrapped2.length-1){
                 newSentence = newSentence + wordwrapped2[i] + " ";
                 print.add(newSentence);
             }
-            else if((newSentence.length()+wordwrapped2[i].length()) <= 50){
+            else if((newSentence.length()+wordwrapped2[i].length()) < charlength){
                 newSentence = newSentence + wordwrapped2[i] + " ";
             }
             else {
