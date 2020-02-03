@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26831458-6cbe-4942-98d8-65cedadf42aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buritto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Buritto/BurritoPlusWrapping.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Buritto/META-INF/Buritto.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BurritoPlusWrapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Buritto/BurritoPlusWrapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Buritto/BurritoPlusWrapping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Buritto/META-INF/Buritto.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BurritoPlusWrapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BurritoPlusWrapping.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,24 +24,18 @@
   </component>
   <component name="ProjectId" id="1SvuJaKyvNcdyKuzKYymuMcOoKt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.BurritoPlusWrapping">
     <configuration name="BurritoMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -81,6 +71,7 @@
       <updated>1572456319521</updated>
       <workItem from="1572456324421" duration="8165000" />
       <workItem from="1572465179125" duration="9794000" />
+      <workItem from="1580738378441" duration="6995000" />
     </task>
     <servers />
   </component>
@@ -92,10 +83,38 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1200" height="147" key="GridCell.Tab.0.bottom" timestamp="1580744347348">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1200" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580744347348" />
+    <state width="1200" height="147" key="GridCell.Tab.0.center" timestamp="1580744347348">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1200" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580744347348" />
+    <state width="1200" height="147" key="GridCell.Tab.0.left" timestamp="1580744347348">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1200" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580744347348" />
+    <state width="1200" height="147" key="GridCell.Tab.0.right" timestamp="1580744347348">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1200" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580744347348" />
+    <state x="347" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1580738379269">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="347" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1580738379269" />
+    <state x="22" y="0" key="new project wizard" timestamp="1580746100963">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="22" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1580746100963" />
   </component>
 </project>

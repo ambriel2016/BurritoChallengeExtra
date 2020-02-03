@@ -103,21 +103,21 @@ public class BurritoPlusWrapping {
                 + veggies + " veggies(as meat option), " + blackbeans + " black beans, " + pintobeans + " pinto beans, "
                 + mildsalsa + " mild salsa, " + medsalsa + " med salsa, " + hotsalsa + " hot salsa, " + fajitas + " fajitas, "
                 + lettuce + " lettuce, " + cheese + " cheese, " + guac  + " guac, " + queso + " queso, " + sourCream + " sour cream, "
-                + "and the sum is " + currency.format(priceCalculator(ingredients));
+                + "and the sum is " + currency.format(priceCalculator(ingredients) + (24*3));
         //WAY 1 to do easy 50 characters
-        ArrayList<String> wordwrapped = new ArrayList<>();
+//        ArrayList<String> wordwrapped = new ArrayList<>();
         int x = 50;
             for (int i = 0; i < orderList.length(); i=i+50) {
-                wordwrapped.add(orderList.substring(i,x));
+                System.out.println(orderList.substring(i,x));
                 x = x + 50;
                 if( x > orderList.length()){
-                    x = orderList.length()-1;
+                    x = orderList.length();
                 }
 
         }
-        for (String sentence : wordwrapped){
-            System.out.println(sentence);
-        }
+//        for (String sentence : wordwrapped){
+//            System.out.println(sentence);
+//        }
         System.out.println();
         System.out.println();
 
